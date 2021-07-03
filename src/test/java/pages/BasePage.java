@@ -7,16 +7,12 @@ import utilities.Driver;
 
 public abstract class BasePage{
 
-    WebDriver driver = Driver.get();
 
     public BasePage(){
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(Driver.get(),this);
     }
 
-    protected WebDriver getDriver(){
-        return driver;
-    }
     protected WebDriverWait driverWait(long timeoutSeconds) {
-        return new WebDriverWait(getDriver(), timeoutSeconds);
+        return new WebDriverWait(Driver.get(), timeoutSeconds);
     }
 }

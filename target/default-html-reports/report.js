@@ -31,6 +31,16 @@ formatter.examples({
       "cells": [
         "book"
       ]
+    },
+    {
+      "cells": [
+        "computer"
+      ]
+    },
+    {
+      "cells": [
+        "selenium"
+      ]
     }
   ]
 });
@@ -47,11 +57,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:26)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.GoogleSearchStep.lambda$new$0(GoogleSearchStep.java:27)\r\n\tat ✽.a web browser is opened in google home page(file:///D:/WikipediaCucumberJVM/src/test/resources/google.feature:5)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "",
@@ -63,22 +72,113 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:30)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "results for \"book\" are shown",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:33)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", "screenshot");
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a web browser is opened in google home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the search phrase \"computer\" is entered",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "results for \"computer\" are shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a web browser is opened in google home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "the search phrase \"selenium\" is entered",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "results for \"selenium\" are shown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

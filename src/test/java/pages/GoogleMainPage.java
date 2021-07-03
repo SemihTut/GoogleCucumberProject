@@ -13,7 +13,7 @@ public class GoogleMainPage extends BasePage{
     private static final By SEARCH_FIELD = By.name("q");
 
     public void navigateToHomePage(){
-        getDriver().get(ConfigurationReader.get("url"));
+        Driver.get().get(ConfigurationReader.get("url"));
     }
 
     public void enterSearchPhrase(String phrase) {

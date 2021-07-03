@@ -13,5 +13,5 @@ Feature: Google search
     Examples:
       | searching item |
       | book           |
-    #  | computer       |
-     # | selenium       |
+      | computer       |
+      | selenium       |

@@ -9,15 +9,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.BasePage;
 import pages.GoogleMainPage;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 import java.lang.annotation.Annotation;
 
 
 public class GoogleSearchStep implements En {
 
-    private WebDriver driver;
-    private BasePage googlePage;
-    private GoogleMainPage googleMainPage;
+
+    private GoogleMainPage googleMainPage=new GoogleMainPage();
 
     // Warning: Make sure the timeouts for hooks using a web driver are zero
 
