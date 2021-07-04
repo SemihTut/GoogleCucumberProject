@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 913523200,
+              "duration": 516618900,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-03T15:24:33.366Z",
+        "start_timestamp": "2021-07-04T12:02:09.605Z",
         "before": [
           {
             "result": {
-              "duration": 133319700,
+              "duration": 137630500,
               "status": "passed"
             },
             "match": {
@@ -37,13 +37,13 @@
           }
         ],
         "line": 15,
-        "name": "",
+        "name": "book",
         "description": "",
-        "id": "google-search;;;2",
+        "id": "google-search;\u003csearching-item\u003e;;2",
         "after": [
           {
             "result": {
-              "duration": 1185698900,
+              "duration": 1546736900,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1343923200,
+              "duration": 1124139800,
               "status": "passed"
             },
             "line": 9,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 16636700,
+              "duration": 4789200,
               "status": "passed"
             },
             "line": 10,
@@ -101,7 +101,7 @@
         "steps": [
           {
             "result": {
-              "duration": 879491000,
+              "duration": 551523300,
               "status": "passed"
             },
             "line": 5,
@@ -114,11 +114,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-03T15:24:38.337Z",
+        "start_timestamp": "2021-07-04T12:02:14.090Z",
         "before": [
           {
             "result": {
-              "duration": 145149500,
+              "duration": 134638400,
               "status": "passed"
             },
             "match": {
@@ -127,13 +127,13 @@
           }
         ],
         "line": 16,
-        "name": "",
+        "name": "computer",
         "description": "",
-        "id": "google-search;;;3",
+        "id": "google-search;\u003csearching-item\u003e;;3",
         "after": [
           {
             "result": {
-              "duration": 1122556100,
+              "duration": 1080451600,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1395341200,
+              "duration": 1123158400,
               "status": "passed"
             },
             "line": 9,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 6063200,
+              "duration": 6981100,
               "status": "passed"
             },
             "line": 10,
@@ -191,7 +191,7 @@
         "steps": [
           {
             "result": {
-              "duration": 983497600,
+              "duration": 515620800,
               "status": "passed"
             },
             "line": 5,
@@ -204,11 +204,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-03T15:24:43.139Z",
+        "start_timestamp": "2021-07-04T12:02:18.067Z",
         "before": [
           {
             "result": {
-              "duration": 133487900,
+              "duration": 114693100,
               "status": "passed"
             },
             "match": {
@@ -217,13 +217,13 @@
           }
         ],
         "line": 17,
-        "name": "",
+        "name": "selenium",
         "description": "",
-        "id": "google-search;;;4",
+        "id": "google-search;\u003csearching-item\u003e;;4",
         "after": [
           {
             "result": {
-              "duration": 1154461600,
+              "duration": 1235140900,
               "status": "passed"
             },
             "match": {
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1433905600,
+              "duration": 989874800,
               "status": "passed"
             },
             "line": 9,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 6597100,
+              "duration": 3988100,
               "status": "passed"
             },
             "line": 10,
@@ -278,6 +278,77 @@
     "id": "google-search",
     "keyword": "Feature",
     "uri": "file:src/test/resources/google.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-04T12:02:22.091Z",
+        "before": [
+          {
+            "result": {
+              "duration": 137631000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "wikipedia-search;",
+        "after": [
+          {
+            "result": {
+              "duration": 625111700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "a web browser is opened in wikipedia home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the search phrase \"\u003cstring\u003e\" is entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cstring\u003e",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia search",
+    "description": "  For a web surfer I want to search in wikipedia",
+    "id": "wikipedia-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/wikipedia.feature",
     "tags": []
   }
 ]

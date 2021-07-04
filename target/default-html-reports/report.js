@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "name": "",
+  "name": "\u003csearching item\u003e",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -63,7 +63,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "book",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -109,7 +109,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "computer",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -155,7 +155,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "",
+  "name": "selenium",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -178,6 +178,41 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/wikipedia.feature");
+formatter.feature({
+  "name": "Wikipedia search",
+  "description": "  For a web surfer I want to search in wikipedia",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a web browser is opened in wikipedia home page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the search phrase \"\u003cstring\u003e\" is entered",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"

@@ -5,7 +5,7 @@ Feature: Google search
     Given a web browser is opened in google home page
 
 
-  Scenario Outline:
+  Scenario Outline:<searching item>
     When the search phrase "<searching item>" is entered
     Then results for "<searching item>" are shown
 
