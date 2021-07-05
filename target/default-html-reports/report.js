@@ -57,7 +57,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
 });
 formatter.result({
   "status": "passed"
@@ -72,7 +72,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
 });
 formatter.result({
   "status": "passed"
@@ -82,7 +82,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
 });
 formatter.result({
   "status": "passed"
@@ -103,7 +103,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
 });
 formatter.result({
   "status": "passed"
@@ -118,7 +118,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
 });
 formatter.result({
   "status": "passed"
@@ -128,7 +128,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
 });
 formatter.result({
   "status": "passed"
@@ -149,7 +149,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
 });
 formatter.result({
   "status": "passed"
@@ -164,7 +164,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
 });
 formatter.result({
   "status": "passed"
@@ -174,7 +174,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
 });
 formatter.result({
   "status": "passed"
@@ -209,7 +209,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+  "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
 });
 formatter.result({
   "status": "skipped"

@@ -11,24 +11,24 @@
         "steps": [
           {
             "result": {
-              "duration": 516618900,
+              "duration": 608290900,
               "status": "passed"
             },
             "line": 5,
             "name": "a web browser is opened in google home page",
             "match": {
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-04T12:02:09.605Z",
+        "start_timestamp": "2021-07-04T19:07:44.119Z",
         "before": [
           {
             "result": {
-              "duration": 137630500,
+              "duration": 119680600,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 1546736900,
+              "duration": 932572700,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1124139800,
+              "duration": 1059348800,
               "status": "passed"
             },
             "line": 9,
@@ -68,13 +68,13 @@
                   "offset": 19
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4789200,
+              "duration": 6981300,
               "status": "passed"
             },
             "line": 10,
@@ -86,7 +86,7 @@
                   "offset": 13
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
             },
             "keyword": "Then "
           }
@@ -101,24 +101,24 @@
         "steps": [
           {
             "result": {
-              "duration": 551523300,
+              "duration": 533153100,
               "status": "passed"
             },
             "line": 5,
             "name": "a web browser is opened in google home page",
             "match": {
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-04T12:02:14.090Z",
+        "start_timestamp": "2021-07-04T19:07:48.039Z",
         "before": [
           {
             "result": {
-              "duration": 134638400,
+              "duration": 136634300,
               "status": "passed"
             },
             "match": {
@@ -133,7 +133,7 @@
         "after": [
           {
             "result": {
-              "duration": 1080451600,
+              "duration": 924351400,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1123158400,
+              "duration": 1305990300,
               "status": "passed"
             },
             "line": 9,
@@ -158,13 +158,13 @@
                   "offset": 19
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6981100,
+              "duration": 3989800,
               "status": "passed"
             },
             "line": 10,
@@ -176,7 +176,7 @@
                   "offset": 13
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
             },
             "keyword": "Then "
           }
@@ -191,24 +191,24 @@
         "steps": [
           {
             "result": {
-              "duration": 515620800,
+              "duration": 570304000,
               "status": "passed"
             },
             "line": 5,
             "name": "a web browser is opened in google home page",
             "match": {
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:27)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:15)"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-04T12:02:18.067Z",
+        "start_timestamp": "2021-07-04T19:07:52.065Z",
         "before": [
           {
             "result": {
-              "duration": 114693100,
+              "duration": 139625800,
               "status": "passed"
             },
             "match": {
@@ -223,7 +223,7 @@
         "after": [
           {
             "result": {
-              "duration": 1235140900,
+              "duration": 1247523300,
               "status": "passed"
             },
             "match": {
@@ -236,7 +236,7 @@
         "steps": [
           {
             "result": {
-              "duration": 989874800,
+              "duration": 892313700,
               "status": "passed"
             },
             "line": 9,
@@ -248,13 +248,13 @@
                   "offset": 19
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3988100,
+              "duration": 3987400,
               "status": "passed"
             },
             "line": 10,
@@ -266,7 +266,7 @@
                   "offset": 13
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:34)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:17)"
             },
             "keyword": "Then "
           }
@@ -284,11 +284,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-04T12:02:22.091Z",
+        "start_timestamp": "2021-07-04T19:07:56.086Z",
         "before": [
           {
             "result": {
-              "duration": 137631000,
+              "duration": 120677700,
               "status": "passed"
             },
             "match": {
@@ -303,7 +303,7 @@
         "after": [
           {
             "result": {
-              "duration": 625111700,
+              "duration": 608299200,
               "status": "passed"
             },
             "match": {
@@ -325,7 +325,6 @@
           },
           {
             "result": {
-              "duration": 997800,
               "status": "skipped"
             },
             "line": 6,
@@ -337,7 +336,7 @@
                   "offset": 19
                 }
               ],
-              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:31)"
+              "location": "stepDefinitions.GoogleSearchStep.\u003cinit\u003e(GoogleSearchStep.java:16)"
             },
             "keyword": "When "
           }
