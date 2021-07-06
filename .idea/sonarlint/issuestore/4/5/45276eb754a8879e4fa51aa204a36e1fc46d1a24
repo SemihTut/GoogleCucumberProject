@@ -1,3 +1,5 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Üå€“øÿÿÿÿ8àÆÂ¬§/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ô®Šûÿÿÿÿ8·­Ç¬§/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ô®Šûÿÿÿÿ8·­Ç¬§/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Üå€“øÿÿÿÿ8àÆÂ¬§/
+>
+java:S1170"!Make this final field static too.(ÿâÕë8ÔŒß¬§/
