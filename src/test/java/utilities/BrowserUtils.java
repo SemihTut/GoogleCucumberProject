@@ -253,7 +253,7 @@ public class BrowserUtils {
     /**
      * Doing copy&paste with key events, NOT too special
      * Robot class to upload file with given string path
-     * @param filePath
+     * @param
      */
     /*public static void uploadFileByRobot(String filePath) {
         String os_name = System.getProperty("os.name");

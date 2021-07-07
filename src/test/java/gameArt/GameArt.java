@@ -24,23 +24,19 @@ public class GameArt {
         Driver.get().manage().window().maximize();
 
         // to click games button in the header
-        WebElement games = Driver.get().findElement(By.linkText("Games"));
+        WebElement games = Driver.get().findElement(Headers.GAMES.getLocator());
         BrowserUtils.waitForVisibility(games,5);
         games.click();
 
         // to list all games webelements and click according to the games name
         List<WebElement> gamesList = Driver.get().findElements(By.className("game-cards__mobiletitle_long"));
 
-        try {
-            for(WebElement elo : gamesList){
-                if(elo.getText().contains(gameName)){
-                    elo.click();
-                    break;
-                }
-            }
-        } catch (StaleElementReferenceException e) {
-            e.printStackTrace();
-        }
+        gamesList.stream()
+                .filter(elo->{
+                    if(elo.getText().equals(gameName)) elo.click();
+                    return false;
+                });
+
 
         // this part to click the play demo button
         WebElement playDemo = Driver.get().findElement(By.xpath("//a[contains(text(),'Play demo')]"));
@@ -68,6 +64,8 @@ public class GameArt {
 
         Thread.sleep(4000);
         Driver.closeDriver();
+
+
 
     }
 }
