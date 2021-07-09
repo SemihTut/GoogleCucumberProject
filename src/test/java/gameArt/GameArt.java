@@ -8,6 +8,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import utilities.BrowserUtils;
 import utilities.Driver;
+import utilities.WaitFactory;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
@@ -16,6 +17,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class GameArt {
+
+    public By playDemo = By.xpath("//a[contains(text(),'Play demo')]");
 
     private final String gameName = "Ali Baba’s Riches";
     @Test
@@ -39,9 +42,8 @@ public class GameArt {
 
 
         // this part to click the play demo button
-        WebElement playDemo = Driver.get().findElement(By.xpath("//a[contains(text(),'Play demo')]"));
-        BrowserUtils.waitForVisibility(playDemo,5);
-        BrowserUtils.clickWithJS(playDemo);
+
+        WaitFactory.performExplicitWait(WaitFactory.CLICKABLE, playDemo);
 
         // to wait the game begins
         Thread.sleep(20000);

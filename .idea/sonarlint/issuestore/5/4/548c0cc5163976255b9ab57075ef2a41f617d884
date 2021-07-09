@@ -1,11 +1,11 @@
 
-F
-java:S29253"$Remove this use of "Thread.sleep()".(ΦΒσύÿÿÿÿ8ψ°β§/
 A
-java:S2925E"$Remove this use of "Thread.sleep()".(Ϊυτρ8ªΗΆδ§/
+java:S2925A"$Remove this use of "Thread.sleep()".(Ϊυτρ8ªΗΆδ§/
+F
+java:S2925/"$Remove this use of "Thread.sleep()".(ΦΒσύÿÿÿÿ8ψ°β§/
 J
 java:S2699"-Add at least one assertion to this test case.(‘θ—¤8¦“α§/
-F
-java:S29259"$Remove this use of "Thread.sleep()".(»γίΊψÿÿÿÿ8’νΉβ§/
 ©
 java:S3577"†Rename class "GameArt" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(Χπ‘πÿÿÿÿÿ8¦“α§/
+F
+java:S29255"$Remove this use of "Thread.sleep()".(»γίΊψÿÿÿÿ8’νΉβ§/
