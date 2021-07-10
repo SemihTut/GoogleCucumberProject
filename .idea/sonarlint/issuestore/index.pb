@@ -42,3 +42,5 @@ R
 "src/test/java/gameArt/Headers.java,f\5\f5887e2e5bb19f6e3ac10a7ffaa74785392b8288
 V
 &src/main/java/oop/SwitchStatement.java,8\d\8dbdf40041666fd41d09801799421577f32510a3
+X
+(src/test/java/utilities/WaitFactory.java,c\2\c2fb912cb67d1f20bbc4de0f16b70d1aac4168d9

@@ -41,7 +41,7 @@ public class GameArt {
                 });
 
 
-        // this part to click the play demo button
+        // Wait factory for implicitly waits
 
         WaitFactory.performExplicitWait(WaitFactory.CLICKABLE, playDemo);
 
