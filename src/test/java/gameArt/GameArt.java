@@ -54,6 +54,7 @@ public class GameArt {
         Driver.get().switchTo().activeElement().click();
         Thread.sleep(1000);
 
+        // not automate
         //robot class
         Robot robot = new Robot();
         // 750-700 spin button coordinates
