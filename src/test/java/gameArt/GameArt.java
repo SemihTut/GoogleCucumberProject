@@ -54,6 +54,7 @@ public class GameArt {
         Driver.get().switchTo().activeElement().click();
         Thread.sleep(1000);
 
+        // deleted sonarlint
         // not automate
         //robot class
         Robot robot = new Robot();
