@@ -3,11 +3,11 @@ package oop;
 public class SwitchStatement {
     public static void main(String[] args) {
 
-        System.out.println("getCustomerId(\"Semih\") = " + getCustomerId("Semih"));
+        //System.out.println("getCustomerId(\"Semih\") = " + getCustomerId("Semih"));
 
 
     }
-    public static String getCustomerId(String name){
+    /*public static String getCustomerId(String name){
         String id = switch(name){
             case "Semih" -> "1234";
             case "Alperen" -> "2345";
@@ -17,5 +17,5 @@ public class SwitchStatement {
         };
 
         return id;
-    }
+    }*/
 }
