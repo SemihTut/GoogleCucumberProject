@@ -1,5 +1,10 @@
 package gameArt;
 
+import org.openqa.selenium.By;
+import utilities.Driver;
+
+import java.text.Format;
+
 public class Formatss {
 
 
@@ -12,8 +17,8 @@ public class Formatss {
         String semih = String.format("My name is %s", "semih");
         System.out.println("semih = " + semih);
 
-        String xpath = String.format("//span[@class='%s']","SEMIH");
+        String xpath = "//span[@class='%s']";
 
-        System.out.println(xpath);
+        Driver.get().findElement(By.xpath(String.format(xpath,name)));
     }
 }
