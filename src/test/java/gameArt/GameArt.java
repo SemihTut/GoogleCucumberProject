@@ -13,12 +13,15 @@ import utilities.WaitFactory;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.text.Format;
 import java.util.List;
 
 
 public class GameArt {
 
-    public By playDemo = By.xpath("//a[contains(text(),'Play demo')]");
+    String choice = "playgame";
+    String xpath = "//a[contains(text(),'%s')]";
+    public By menuName = By.xpath(String.format(xpath,choice));
 
     private final String gameName = "Ali Baba’s Riches";
     @Test
@@ -41,9 +44,10 @@ public class GameArt {
                 });
 
 
+
         // Wait factory for implicitly waits
 
-        WaitFactory.performExplicitWait(WaitFactory.CLICKABLE, playDemo);
+        WaitFactory.performExplicitWait(WaitFactory.CLICKABLE,menuName);
 
         // to wait the game begins
         Thread.sleep(20000);

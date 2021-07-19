@@ -12,13 +12,13 @@ public class Formatss {
 
         String str = "My name is %s";
         String name = "Semih";
-        System.out.println(String.format(str,name));
+        System.out.println(String.format(str, name));
 
         String semih = String.format("My name is %s", "semih");
         System.out.println("semih = " + semih);
 
         String xpath = "//span[@class='%s']";
 
-        Driver.get().findElement(By.xpath(String.format(xpath,name)));
+        Driver.get().findElement(By.xpath(String.format(xpath, name)));
     }
 }
