@@ -1,7 +1,6 @@
 package gameArt;
 
 import lombok.Getter;
-import lombok.Setter;
 import org.openqa.selenium.By;
 
 @Getter
@@ -22,5 +21,5 @@ public enum Headers {
         locator=By.linkText(linkText);
     }
 
-
+    //summertime sadness
 }
