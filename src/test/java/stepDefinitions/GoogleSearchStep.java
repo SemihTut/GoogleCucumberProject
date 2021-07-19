@@ -16,7 +16,6 @@ public class GoogleSearchStep implements En {
         Then("^results for \"([^\"]*)\" are shown$", (String phrase) -> {
             Assert.assertTrue(googleMainPage.pageTitleContains(phrase));
         });
-
     }
 
 }
