@@ -17,6 +17,7 @@ public class Formatss {
         String semih = String.format("My name is %s", "semih");
         System.out.println("semih = " + semih);
 
+        // some staff about string format
         String xpath = "//span[@class='%s']";
 
         Driver.get().findElement(By.xpath(String.format(xpath, name)));
