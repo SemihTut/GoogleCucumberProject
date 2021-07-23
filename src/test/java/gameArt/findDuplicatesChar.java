@@ -25,7 +25,9 @@ public class findDuplicatesChar {
             freq.merge(s,1,Integer::sum);
         }
         // verilen string ile Map in uzunlugunu karsilastiriyoruz.
+        //
         // eger benzer harf varsa bu duplicate var demektir ve true olarak doner
+        //DENEME
         return str.length()!=freq.size();
     }
 }
