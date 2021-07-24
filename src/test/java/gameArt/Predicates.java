@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Predicates {
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class Predicates {
 
         List<String>myStr = new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"," "," "));
         myStr.removeIf(n -> n.startsWith(" "));
+        myStr.removeAll(myStr.stream().filter(x->x.startsWith("s")).collect(Collectors.toList()));
         myStr.forEach(System.out::println);
         System.out.println("myStr = " + myStr.size());
 
