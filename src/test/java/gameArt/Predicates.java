@@ -15,11 +15,22 @@ public class Predicates {
         myList.removeIf(isOdd);
         //myList.forEach(System.out::print);
 
-        List<String>myStr = new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"," "," "));
-        myStr.removeIf(n -> n.startsWith(" "));
-        myStr.removeAll(myStr.stream().filter(x->x.startsWith("s")).collect(Collectors.toList()));
+        List<String>myStr = new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"));
+        //1st way using Predicate
+        Predicate<String>namesStartingWithS = n-> n.startsWith("s") && n.length()>3;
+        myStr.removeIf(namesStartingWithS);
         myStr.forEach(System.out::println);
         System.out.println("myStr = " + myStr.size());
+        myStr=new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"));
+        //2nd way using stream
+
+        System.out.println("Second way by using stream");
+        System.out.println(myStr.stream()
+                .filter(namesStartingWithS)
+                .collect(Collectors.toList()));
+        myStr=new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"));
+
+        
 
     }
 }
