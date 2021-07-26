@@ -22,6 +22,8 @@ public class Predicates {
         myStr.forEach(System.out::println);
         System.out.println("myStr = " + myStr.size());
         myStr=new ArrayList<>(Arrays.asList("semih","alp","samet","hasan","yusuf"));
+
+        //2nd way
         //2nd way using stream
 
         System.out.println("Second way by using stream");
